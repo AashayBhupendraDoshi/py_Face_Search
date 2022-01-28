@@ -21,7 +21,6 @@ To run the single search simply run:
     python3 ./single_face.py
     ```
 You will then be prompted with a basic GUI to select the image of the person to search and the directory to search the images of the person into.
-[Fig1: Prompt for selecting image and directory](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 You can then click run to start searching  the images. The results will shown as a list of clickable results 
 ## Double Search
 ### Note

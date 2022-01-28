@@ -24,7 +24,7 @@ To run the single search simply run:
 
 You will then be prompted with a basic GUI to select the image of the person to search and the directory to search the images of the person into.
 You can then click run to start searching  the images. The results will shown as a list of clickable results with the file address relative to the root directory along with the bounding boxes.
-![](https://github.com/AashayBhupendraDoshi/py_Face_Search/blob/main/images/single.gif)
+<!--![](https://github.com/AashayBhupendraDoshi/py_Face_Search/blob/main/images/single.gif) -->
 <p align="center">
   <img src="https://github.com/AashayBhupendraDoshi/py_Face_Search/blob/main/images/single.gif">
 </p>
@@ -35,8 +35,10 @@ Run the following command:
     python3 ./double_face.py
     ```
 
-The GUI will be similar to the single_search application
-![](https://github.com/AashayBhupendraDoshi/py_Face_Search/blob/main/images/double.gif)
+The GUI will be similar to the single_search application.
+<p align="center">
+  <img src="https://github.com/AashayBhupendraDoshi/py_Face_Search/blob/main/images/double.gif">
+</p>
 
 ### Note
 - Process files and store them in 'process_files' directory

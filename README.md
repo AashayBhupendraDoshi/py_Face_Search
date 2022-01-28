@@ -1,6 +1,6 @@
 # Python Face Search
 ## Introduction
-This is a python based GUI application for single and multi face search. The GUI is built using PyQt5, the face detection algorithms are build using [InsightFace](https://github.com/deepinsight/insightface/tree/master/python-package) and the indexing and ANN algorithms are built using  [Faiss](https://github.com/facebookresearch/faiss) library using [HNSW](https://arxiv.org/abs/1603.09320) algorithm.
+This is a python based GUI application for single and multi face search. The GUI is built using PyQt5, the face detection algorithms are build using [InsightFace](https://github.com/deepinsight/insightface/tree/master/python-package) and the indexing and ANN algorithms are built using  [Faiss](https://github.com/facebookresearch/faiss) library. All the unary search (,i.e., the complete single search and individual searches in the multi-search algorithm) using [HNSW](https://arxiv.org/abs/1603.09320) algorithm.
 
 ## Installation:
 
@@ -12,11 +12,15 @@ This is a python based GUI application for single and multi face search. The GUI
     ```
 
 * For installing all packages in `requirements.txt` file, run following command in your project directory:
-
     ```
     pip3 install -r requirements.txt
     ```
 ## Single Search
+To run the single search simply run:
+    ```
+    python3 ./single_face.py
+    ```
+You will then be prompted with a basic GUI to select the 
 ## Double Search
 ### Note
 Process files and store them in 'process_files' directory
